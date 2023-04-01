@@ -4,6 +4,7 @@ import { Site } from './01/Site';
 import { StudentsWrap } from './02/StudentsWrap';
 import { ButtonWrap } from './03/ButtonWrap';
 import { MyUseState } from './04/MyUseState';
+import { FilterWrap } from './05/FilterWrap';
 
 function App() {
     return (
@@ -11,7 +12,8 @@ function App() {
             {/*<Site />*/}
             {/*<StudentsWrap />*/}
             {/*<ButtonWrap />*/}
-            <MyUseState />
+            {/*<MyUseState />*/}
+            <FilterWrap />
         </>
     );
 }
